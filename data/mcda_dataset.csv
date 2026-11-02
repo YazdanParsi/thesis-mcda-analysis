@@ -1,0 +1,4 @@
+provider,performance,cost,reliability,security,scalability
+AWS,85,3.90,99.95,100,95
+Azure,80,6.98,99.90,95,92
+GCP,90,3.00,99.95,95,90

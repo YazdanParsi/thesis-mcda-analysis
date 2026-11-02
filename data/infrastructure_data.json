@@ -1,0 +1,41 @@
+{
+  "AWS": {
+    "regions": 33,
+    "availability_zones": 105,
+    "gpu_regions": 22,
+    "h100_availability": [
+      "us-east-1",
+      "us-west-2",
+      "eu-west-1",
+      "ap-northeast-1"
+    ],
+    "edge_locations": 600,
+    "scalability_score": 95
+  },
+  "Azure": {
+    "regions": 60,
+    "availability_zones": 116,
+    "gpu_regions": 25,
+    "h100_availability": [
+      "eastus",
+      "westus2",
+      "westeurope",
+      "southeastasia"
+    ],
+    "edge_locations": 190,
+    "scalability_score": 92
+  },
+  "GCP": {
+    "regions": 40,
+    "availability_zones": 121,
+    "gpu_regions": 18,
+    "h100_availability": [
+      "us-central1",
+      "us-east4",
+      "europe-west4",
+      "asia-east1"
+    ],
+    "edge_locations": 187,
+    "scalability_score": 90
+  }
+}

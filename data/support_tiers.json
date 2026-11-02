@@ -1,0 +1,65 @@
+{
+  "AWS": {
+    "tiers": {
+      "Basic": {
+        "cost": "Free",
+        "response_time": "Community forums"
+      },
+      "Developer": {
+        "cost": "$29/month",
+        "response_time": "12-24 hours"
+      },
+      "Business": {
+        "cost": "10% of monthly spend (min $100)",
+        "response_time": "1-4 hours"
+      },
+      "Enterprise": {
+        "cost": "Custom",
+        "response_time": "15 min (critical)"
+      }
+    },
+    "score": 90
+  },
+  "Azure": {
+    "tiers": {
+      "Basic": {
+        "cost": "Free",
+        "response_time": "Self-help only"
+      },
+      "Developer": {
+        "cost": "$29/month",
+        "response_time": "8 hours (business)"
+      },
+      "Standard": {
+        "cost": "$100/month",
+        "response_time": "1 hour (critical)"
+      },
+      "Professional Direct": {
+        "cost": "$1000/month",
+        "response_time": "1 hour + TAM"
+      }
+    },
+    "score": 88
+  },
+  "GCP": {
+    "tiers": {
+      "Basic": {
+        "cost": "Free",
+        "response_time": "Self-help only"
+      },
+      "Standard": {
+        "cost": "$29/month",
+        "response_time": "4 hours (P2)"
+      },
+      "Enhanced": {
+        "cost": "$500/month",
+        "response_time": "1 hour (P1)"
+      },
+      "Premium": {
+        "cost": "Custom",
+        "response_time": "15 min + TAM"
+      }
+    },
+    "score": 85
+  }
+}

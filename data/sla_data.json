@@ -1,0 +1,41 @@
+{
+  "AWS": {
+    "compute_sla": {
+      "multi_az": 99.99,
+      "single_az": 99.95,
+      "single_instance": 99.5
+    },
+    "gpu_sla": {
+      "p4d_p5_multi_az": 99.95,
+      "p4d_p5_single": 99.5
+    },
+    "credit_policy": "10% for <99.99%, 30% for <99.0%",
+    "source": "AWS Service Level Agreement"
+  },
+  "Azure": {
+    "compute_sla": {
+      "availability_zones": 99.99,
+      "availability_set": 99.95,
+      "single_vm_premium": 99.9
+    },
+    "gpu_sla": {
+      "nd_series_as": 99.95,
+      "nd_series_single": 99.9
+    },
+    "credit_policy": "10% for <99.99%, 25% for <99.0%",
+    "source": "Azure SLA for Virtual Machines"
+  },
+  "GCP": {
+    "compute_sla": {
+      "multi_zone": 99.99,
+      "single_zone": 99.95,
+      "single_instance": 99.5
+    },
+    "gpu_sla": {
+      "a2_a3_multi_zone": 99.95,
+      "a2_a3_single": 99.5
+    },
+    "credit_policy": "10% for <99.99%, 25% for <99.0%, 50% for <95.0%",
+    "source": "Google Cloud Compute Engine SLA"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "last_updated": "2026-01-15",
+    "sources": [
+      "AWS Data Transfer Pricing",
+      "Azure Bandwidth Pricing",
+      "Google Cloud Networking Pricing"
+    ],
+    "notes": "Prices in USD per GB, tiered pricing applies"
+  },
+  "outbound_to_internet": {
+    "description": "Data transfer from cloud to internet",
+    "AWS": {
+      "first_100gb": 0.0,
+      "10tb_tier": 0.09,
+      "40tb_tier": 0.085,
+      "100tb_tier": 0.07,
+      "over_150tb": 0.05,
+      "notes": "First 100GB/month free across all regions"
+    },
+    "Azure": {
+      "first_100gb": 0.0,
+      "10tb_tier": 0.087,
+      "40tb_tier": 0.083,
+      "100tb_tier": 0.07,
+      "over_350tb": 0.05,
+      "notes": "100GB free, pricing for Premium Global Network"
+    },
+    "GCP": {
+      "first_1gb": 0.0,
+      "10tb_tier": 0.12,
+      "10tb_standard": 0.085,
+      "over_150tb": 0.08,
+      "notes": "Only 1GB free, but Standard tier is competitive"
+    }
+  },
+  "between_availability_zones": {
+    "description": "Data transfer between AZs in same region",
+    "AWS": 0.01,
+    "Azure": 0.01,
+    "GCP": 0.01
+  },
+  "between_regions": {
+    "description": "Data transfer between different regions",
+    "AWS": {
+      "same_continent": 0.02,
+      "inter_continental": 0.09
+    },
+    "Azure": {
+      "same_continent": 0.02,
+      "inter_continental": 0.05
+    },
+    "GCP": {
+      "same_continent": 0.05,
+      "inter_continental": 0.14
+    }
+  },
+  "monthly_1tb_cost": {
+    "description": "Estimated cost for 1TB monthly egress",
+    "AWS": 90.0,
+    "Azure": 87.0,
+    "GCP_premium": 120.0,
+    "GCP_standard": 85.0
+  }
+}

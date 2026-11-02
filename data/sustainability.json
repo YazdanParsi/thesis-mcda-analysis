@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "sources": [
+      "Provider sustainability reports 2024",
+      "Green Software Foundation",
+      "EPA data"
+    ],
+    "notes": "Carbon intensity measured in gCO2eq/kWh"
+  },
+  "AWS": {
+    "renewable_energy_percentage": 100,
+    "carbon_neutral_since": 2024,
+    "regions_renewable": 33,
+    "carbon_intensity_avg": 0,
+    "sustainability_tools": [
+      "Customer Carbon Footprint Tool",
+      "Graviton processors"
+    ],
+    "score": 95
+  },
+  "Azure": {
+    "renewable_energy_percentage": 100,
+    "carbon_neutral_since": 2012,
+    "regions_renewable": 60,
+    "carbon_intensity_avg": 0,
+    "sustainability_tools": [
+      "Emissions Impact Dashboard",
+      "Sustainability Calculator"
+    ],
+    "score": 98
+  },
+  "GCP": {
+    "renewable_energy_percentage": 100,
+    "carbon_neutral_since": 2007,
+    "regions_renewable": 40,
+    "carbon_intensity_avg": 0,
+    "sustainability_tools": [
+      "Carbon Footprint Dashboard",
+      "Low-carbon regions selector"
+    ],
+    "score": 100
+  }
+}

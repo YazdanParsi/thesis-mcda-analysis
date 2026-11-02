@@ -1,0 +1,124 @@
+{
+  "version": "1.0",
+  "created": "2026-01-12",
+  "description": "Data source registry for MCDA cloud provider analysis",
+  "sources": {
+    "official": {
+      "D001": {
+        "title": "AWS EC2 On-Demand Pricing",
+        "url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+        "category": "pricing",
+        "provider": "AWS",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D002": {
+        "title": "AWS Service Level Agreements",
+        "url": "https://aws.amazon.com/legal/service-level-agreements/",
+        "category": "reliability",
+        "provider": "AWS",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D003": {
+        "title": "AWS Security & Compliance",
+        "url": "https://aws.amazon.com/security/",
+        "category": "security",
+        "provider": "AWS",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D005": {
+        "title": "Azure Virtual Machine Series Pricing",
+        "url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/",
+        "category": "pricing",
+        "provider": "Azure",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D006": {
+        "title": "Azure SLA for Online Services",
+        "url": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services",
+        "category": "reliability",
+        "provider": "Azure",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D007": {
+        "title": "Azure Security & Compliance",
+        "url": "https://azure.microsoft.com/en-us/overview/trusted-cloud/",
+        "category": "security",
+        "provider": "Azure",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D009": {
+        "title": "GCP GPU Pricing",
+        "url": "https://cloud.google.com/compute/gpus-pricing",
+        "category": "pricing",
+        "provider": "GCP",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D010": {
+        "title": "GCP Compute Engine SLA",
+        "url": "https://cloud.google.com/compute/sla",
+        "category": "reliability",
+        "provider": "GCP",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      },
+      "D011": {
+        "title": "GCP Security",
+        "url": "https://cloud.google.com/security",
+        "category": "security",
+        "provider": "GCP",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12"
+      }
+    },
+    "benchmarks": {
+      "MLPERF_V5_1": {
+        "title": "MLPerf Inference v5.1",
+        "url": "https://github.com/mlcommons/inference_results_v5.1",
+        "category": "performance",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12",
+        "notes": "Official MLCommons benchmark results - Sept 2025"
+      },
+      "MLPERF_V5_0": {
+        "title": "MLPerf Inference v5.0",
+        "url": "https://github.com/mlcommons/inference_results_v5.0",
+        "category": "performance",
+        "confidence": "HIGH",
+        "accessed": "2026-01-12",
+        "notes": "Official MLCommons benchmark results - June 2025"
+      }
+    },
+    "empirical": {
+      "EMP001": {
+        "title": "Empirical Inference Tests - DeepSeek",
+        "category": "performance",
+        "confidence": "HIGH",
+        "date": "2026-01-12",
+        "notes": "Direct measurements from lightweight test suite"
+      }
+    },
+    "literature": {
+      "D013": {
+        "title": "Cloud GPU Pricing Comparison 2025",
+        "source": "Verda/DataCrunch",
+        "category": "cost",
+        "confidence": "MEDIUM",
+        "accessed": "2026-01-12"
+      },
+      "D016": {
+        "title": "NVIDIA H100 Price Guide 2026",
+        "source": "JarvisLabs",
+        "category": "performance",
+        "confidence": "MEDIUM",
+        "accessed": "2026-01-12"
+      }
+    }
+  }
+}

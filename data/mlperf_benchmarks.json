@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "source": "MLPerf Inference 4.0 and 5.0 (mlcommons.org)",
+    "benchmarks": [
+      "Llama2-70B",
+      "GPT-J",
+      "BERT",
+      "ResNet50",
+      "Stable Diffusion XL"
+    ],
+    "measurement": "Samples/second or Tokens/second (higher is better)",
+    "last_updated": "2026-01-15"
+  },
+  "llama2_70b_inference": {
+    "description": "Large Language Model inference benchmark",
+    "metric": "tokens/second",
+    "scenario": "Server (offline batch)",
+    "results": {
+      "h100_sxm": {
+        "provider": "NVIDIA Reference",
+        "tokens_per_second": 850,
+        "latency_ms": 47
+      },
+      "a100_sxm": {
+        "provider": "NVIDIA Reference",
+        "tokens_per_second": 320,
+        "latency_ms": 125
+      },
+      "h100_oci": {
+        "provider": "Oracle Cloud",
+        "tokens_per_second": 820,
+        "latency_ms": 49,
+        "notes": "MLPerf 4.0 submission"
+      },
+      "h100_azure": {
+        "provider": "Microsoft Azure",
+        "tokens_per_second": 780,
+        "latency_ms": 51,
+        "notes": "MLPerf 4.0 submission"
+      },
+      "h100_gcp": {
+        "provider": "Google Cloud",
+        "tokens_per_second": 810,
+        "latency_ms": 49,
+        "notes": "MLPerf 4.0 submission"
+      }
+    },
+    "performance_ratio": {
+      "h100_vs_a100": 2.66
+    }
+  },
+  "gptj_inference": {
+    "description": "GPT-J 6B inference benchmark",
+    "metric": "samples/second",
+    "results": {
+      "h100_vs_a100_ratio": 12.6,
+      "notes": "H100 shows massive improvement for transformer models"
+    }
+  },
+  "bert_inference": {
+    "description": "BERT Large SQuAD inference",
+    "metric": "samples/second",
+    "results": {
+      "h100_sxm": 12500,
+      "a100_sxm": 5800,
+      "ratio": 2.16
+    }
+  },
+  "stable_diffusion_xl": {
+    "description": "Text-to-image generation benchmark",
+    "metric": "images/second",
+    "results": {
+      "h100_sxm": 3.2,
+      "a100_sxm": 1.1,
+      "ratio": 2.91
+    }
+  }
+}

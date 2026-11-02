@@ -1,0 +1,530 @@
+{
+  "Balanced (Baseline)": {
+    "weights": {
+      "performance": 0.25,
+      "cost": 0.3,
+      "reliability": 0.2,
+      "security": 0.15,
+      "scalability": 0.1
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9626720894219513,
+        "d_plus": 0.005461071223362368,
+        "d_minus": 0.1408388726736805
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7685028196465288,
+        "d_plus": 0.03273384965688066,
+        "d_minus": 0.10866679119282475
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.008794007559593529,
+        "d_plus": 0.14092252718496964,
+        "d_minus": 0.00125026864126445
+      }
+    ],
+    "winner": "GCP"
+  },
+  "Cost-Focused": {
+    "weights": {
+      "performance": 0.15,
+      "cost": 0.5,
+      "reliability": 0.15,
+      "security": 0.1,
+      "scalability": 0.1
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9818059103468791,
+        "d_plus": 0.004322323326902706,
+        "d_minus": 0.23324511804059056
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7731763240759428,
+        "d_plus": 0.05293875452168168,
+        "d_minus": 0.18045290667071562
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.005331135154269597,
+        "d_plus": 0.23327176186158924,
+        "d_minus": 0.00125026864126445
+      }
+    ],
+    "winner": "GCP"
+  },
+  "Performance-Focused": {
+    "weights": {
+      "performance": 0.45,
+      "cost": 0.2,
+      "reliability": 0.15,
+      "security": 0.1,
+      "scalability": 0.1
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9577915587669947,
+        "d_plus": 0.004322323326902706,
+        "d_minus": 0.0980819162194471
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7394418891886447,
+        "d_plus": 0.026024712319303256,
+        "d_minus": 0.07385593326207807
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.012578721165896969,
+        "d_plus": 0.09814526010724925,
+        "d_minus": 0.00125026864126445
+      }
+    ],
+    "winner": "GCP"
+  },
+  "Security-Focused": {
+    "weights": {
+      "performance": 0.15,
+      "cost": 0.2,
+      "reliability": 0.2,
+      "security": 0.35,
+      "scalability": 0.1
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.8958014633110337,
+        "d_plus": 0.010906413646173129,
+        "d_minus": 0.09376313347740008
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7713053071308329,
+        "d_plus": 0.02168296598226613,
+        "d_minus": 0.07312887993437978
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.013076420121047708,
+        "d_plus": 0.09436218719074319,
+        "d_minus": 0.00125026864126445
+      }
+    ],
+    "winner": "GCP"
+  },
+  "Enterprise": {
+    "weights": {
+      "performance": 0.2,
+      "cost": 0.25,
+      "reliability": 0.25,
+      "security": 0.2,
+      "scalability": 0.1
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9456662943175514,
+        "d_plus": 0.006739469330498185,
+        "d_minus": 0.11729899345882032
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7691967421331742,
+        "d_plus": 0.02720633923559058,
+        "d_minus": 0.09067041643520127
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.010531584488022026,
+        "d_plus": 0.11746583174101216,
+        "d_minus": 0.00125026864126445
+      }
+    ],
+    "winner": "GCP"
+  },
+  "Startup": {
+    "weights": {
+      "performance": 0.3,
+      "cost": 0.4,
+      "reliability": 0.1,
+      "security": 0.1,
+      "scalability": 0.1
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9774701285401747,
+        "d_plus": 0.004322323326902706,
+        "d_minus": 0.1875262335816521
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.76939454641451,
+        "d_plus": 0.04336593196453226,
+        "d_minus": 0.1446865676198093
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.006621847465846897,
+        "d_plus": 0.18755937212936416,
+        "d_minus": 0.00125026864126445
+      }
+    ],
+    "winner": "GCP"
+  },
+  "performance_up": {
+    "weights": {
+      "performance": 0.325,
+      "cost": 0.27,
+      "reliability": 0.18000000000000002,
+      "security": 0.135,
+      "scalability": 0.09000000000000001
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9629519781725862,
+        "d_plus": 0.004914964101026131,
+        "d_minus": 0.12774971969564755
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7627798557366577,
+        "d_plus": 0.030515735597581656,
+        "d_minus": 0.09812315252190965
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.00872620941162137,
+        "d_plus": 0.1278244228549569,
+        "d_minus": 0.0011252417771380058
+      }
+    ],
+    "winner": "GCP"
+  },
+  "performance_down": {
+    "weights": {
+      "performance": 0.175,
+      "cost": 0.32999999999999996,
+      "reliability": 0.22,
+      "security": 0.16499999999999998,
+      "scalability": 0.11
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9625160421552775,
+        "d_plus": 0.0060071783456986105,
+        "d_minus": 0.1542528019526303
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7717891017670576,
+        "d_plus": 0.03528083453925256,
+        "d_minus": 0.11931666633575057
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.00883181955234406,
+        "d_plus": 0.15434522134165937,
+        "d_minus": 0.0013752955053909013
+      }
+    ],
+    "winner": "GCP"
+  },
+  "cost_up": {
+    "weights": {
+      "performance": 0.21785714285714286,
+      "cost": 0.39,
+      "reliability": 0.1742857142857143,
+      "security": 0.13071428571428573,
+      "scalability": 0.08714285714285715
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9745670521954087,
+        "d_plus": 0.0047589334946443644,
+        "d_minus": 0.18235793283200602
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7714169440836963,
+        "d_plus": 0.04176017293014774,
+        "d_minus": 0.140931290191416
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.005937550187185793,
+        "d_plus": 0.1824070034320267,
+        "d_minus": 0.0010895198159590197
+      }
+    ],
+    "winner": "GCP"
+  },
+  "cost_down": {
+    "weights": {
+      "performance": 0.2821428571428572,
+      "cost": 0.21,
+      "reliability": 0.22571428571428578,
+      "security": 0.1692857142857143,
+      "scalability": 0.11285714285714289
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9417946324410057,
+        "d_plus": 0.006163208952080395,
+        "d_minus": 0.09972408650797566
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7605568124654677,
+        "d_plus": 0.024112249464050863,
+        "d_minus": 0.07658908897170406
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.013931088822765725,
+        "d_plus": 0.09987449470847579,
+        "d_minus": 0.0014110174665698805
+      }
+    ],
+    "winner": "GCP"
+  },
+  "reliability_up": {
+    "weights": {
+      "performance": 0.23124999999999998,
+      "cost": 0.27749999999999997,
+      "reliability": 0.26,
+      "security": 0.13874999999999998,
+      "scalability": 0.09249999999999999
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9626720923702583,
+        "d_plus": 0.0050514908816101985,
+        "d_minus": 0.1302759679118565
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7685028441655541,
+        "d_plus": 0.03027881093261462,
+        "d_minus": 0.1005167957065805
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.008794006845268902,
+        "d_plus": 0.1303533483284539,
+        "d_minus": 0.001156498493169622
+      }
+    ],
+    "winner": "GCP"
+  },
+  "reliability_down": {
+    "weights": {
+      "performance": 0.26875,
+      "cost": 0.3225,
+      "reliability": 0.13999999999999999,
+      "security": 0.16125,
+      "scalability": 0.1075
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9626720876805144,
+        "d_plus": 0.005870651565114558,
+        "d_minus": 0.1514017807870699
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7685028051642067,
+        "d_plus": 0.03518888838114673,
+        "d_minus": 0.1168167910229042
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.008794007981514024,
+        "d_plus": 0.15149170939106119,
+        "d_minus": 0.001344038789359285
+      }
+    ],
+    "winner": "GCP"
+  },
+  "security_up": {
+    "weights": {
+      "performance": 0.23676470588235293,
+      "cost": 0.2841176470588235,
+      "reliability": 0.18941176470588236,
+      "security": 0.195,
+      "scalability": 0.09470588235294118
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9533216594127497,
+        "d_plus": 0.006530936227463993,
+        "d_minus": 0.1333826970615445
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7686362659802811,
+        "d_plus": 0.03100088114563403,
+        "d_minus": 0.10299108296656287
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.008790118689563961,
+        "d_plus": 0.13352149205677163,
+        "d_minus": 0.0011840779484916311
+      }
+    ],
+    "winner": "GCP"
+  },
+  "security_down": {
+    "weights": {
+      "performance": 0.26323529411764707,
+      "cost": 0.3158823529411765,
+      "reliability": 0.2105882352941177,
+      "security": 0.105,
+      "scalability": 0.10529411764705884
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9702624460103069,
+        "d_plus": 0.004545091921198376,
+        "d_minus": 0.14829504828581658
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7684184706843471,
+        "d_plus": 0.0344668181681273,
+        "d_minus": 0.1143655099971641
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.008796464493868967,
+        "d_plus": 0.14834131907850934,
+        "d_minus": 0.001316459334037276
+      }
+    ],
+    "winner": "GCP"
+  },
+  "scalability_up": {
+    "weights": {
+      "performance": 0.24166666666666667,
+      "cost": 0.29,
+      "reliability": 0.19333333333333336,
+      "security": 0.145,
+      "scalability": 0.13
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9582129741482847,
+        "d_plus": 0.005937159253439377,
+        "d_minus": 0.13614424358455784
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7685623012795152,
+        "d_plus": 0.031642721334984636,
+        "d_minus": 0.10507969471876562
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.011789835573290502,
+        "d_plus": 0.13623486294149123,
+        "d_minus": 0.001625349233643783
+      }
+    ],
+    "winner": "GCP"
+  },
+  "scalability_down": {
+    "weights": {
+      "performance": 0.25833333333333336,
+      "cost": 0.31,
+      "reliability": 0.2066666666666667,
+      "security": 0.155,
+      "scalability": 0.06999999999999999
+    },
+    "ranking": [
+      {
+        "rank": 1,
+        "provider": "GCP",
+        "score": 0.9660238298997338,
+        "d_plus": 0.005118580782519237,
+        "d_minus": 0.14553350176280322
+      },
+      {
+        "rank": 2,
+        "provider": "AWS",
+        "score": 0.7684629853200666,
+        "d_plus": 0.033824977978776684,
+        "d_minus": 0.11226387967335662
+      },
+      {
+        "rank": 3,
+        "provider": "Azure",
+        "score": 0.005974462904437273,
+        "d_plus": 0.145612967101448,
+        "d_minus": 0.0008751880488851171
+      }
+    ],
+    "winner": "GCP"
+  }
+}

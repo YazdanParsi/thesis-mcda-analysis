@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "last_updated": "2026-01-15",
+    "sources": [
+      "AWS Pricing Calculator",
+      "Azure Pricing",
+      "Google Cloud Pricing",
+      "MLPerf Inference 4.0/5.0 Results",
+      "Industry analysis reports"
+    ],
+    "notes": "H100 prices dropped 64-75% in 2025 due to increased supply"
+  },
+  "nvidia_h100": {
+    "description": "NVIDIA H100 80GB HBM3 Tensor Core GPU",
+    "memory": "80GB HBM3",
+    "fp16_tflops": 1979,
+    "providers": {
+      "AWS": {
+        "instance": "p5.48xlarge",
+        "gpus_per_instance": 8,
+        "on_demand_per_gpu_hr": 3.9,
+        "spot_per_gpu_hr": 1.17,
+        "reserved_1yr_per_gpu_hr": 2.34,
+        "region": "us-east-1",
+        "notes": "45% price reduction announced June 2025"
+      },
+      "Azure": {
+        "instance": "ND H100 v5",
+        "gpus_per_instance": 8,
+        "on_demand_per_gpu_hr": 6.98,
+        "spot_per_gpu_hr": 2.09,
+        "reserved_1yr_per_gpu_hr": 4.19,
+        "region": "East US",
+        "notes": "More expensive than AWS/GCP"
+      },
+      "GCP": {
+        "instance": "a3-highgpu-8g",
+        "gpus_per_instance": 8,
+        "on_demand_per_gpu_hr": 3.0,
+        "spot_per_gpu_hr": 0.9,
+        "committed_1yr_per_gpu_hr": 1.8,
+        "region": "us-central1",
+        "notes": "Best H100 pricing among major providers"
+      }
+    }
+  },
+  "nvidia_a100": {
+    "description": "NVIDIA A100 80GB HBM2e Tensor Core GPU",
+    "memory": "80GB HBM2e",
+    "fp16_tflops": 312,
+    "providers": {
+      "AWS": {
+        "instance": "p4d.24xlarge",
+        "gpus_per_instance": 8,
+        "on_demand_per_gpu_hr": 2.74,
+        "spot_per_gpu_hr": 0.82,
+        "reserved_1yr_per_gpu_hr": 1.64,
+        "region": "us-east-1"
+      },
+      "Azure": {
+        "instance": "NC A100 v4",
+        "gpus_per_instance": 4,
+        "on_demand_per_gpu_hr": 3.67,
+        "spot_per_gpu_hr": 1.1,
+        "reserved_1yr_per_gpu_hr": 2.2,
+        "region": "East US"
+      },
+      "GCP": {
+        "instance": "a2-highgpu-8g",
+        "gpus_per_instance": 8,
+        "on_demand_per_gpu_hr": 2.5,
+        "spot_per_gpu_hr": 0.75,
+        "committed_1yr_per_gpu_hr": 1.5,
+        "region": "us-central1"
+      }
+    }
+  },
+  "nvidia_l4": {
+    "description": "NVIDIA L4 24GB Tensor Core GPU (Inference optimized)",
+    "memory": "24GB GDDR6",
+    "fp16_tflops": 121,
+    "providers": {
+      "AWS": {
+        "instance": "g6.xlarge",
+        "gpus_per_instance": 1,
+        "on_demand_per_gpu_hr": 0.8,
+        "spot_per_gpu_hr": 0.24,
+        "reserved_1yr_per_gpu_hr": 0.48,
+        "region": "us-east-1"
+      },
+      "Azure": {
+        "instance": "NC6s v3",
+        "gpus_per_instance": 1,
+        "on_demand_per_gpu_hr": 0.9,
+        "spot_per_gpu_hr": 0.27,
+        "reserved_1yr_per_gpu_hr": 0.54,
+        "region": "East US",
+        "notes": "V100 alternative for comparison"
+      },
+      "GCP": {
+        "instance": "g2-standard-4",
+        "gpus_per_instance": 1,
+        "on_demand_per_gpu_hr": 0.35,
+        "spot_per_gpu_hr": 0.11,
+        "committed_1yr_per_gpu_hr": 0.21,
+        "region": "us-central1",
+        "notes": "Best inference GPU pricing"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "assessment_methodology": "Based on proprietary services, migration difficulty, and open standards support",
+    "scale": "1-100, higher = less lock-in risk (better)"
+  },
+  "AWS": {
+    "proprietary_services": {
+      "count": 200,
+      "key_proprietary": [
+        "Lambda",
+        "DynamoDB",
+        "SQS",
+        "SNS",
+        "Aurora"
+      ],
+      "migration_difficulty": "High"
+    },
+    "open_standards_support": {
+      "kubernetes": true,
+      "terraform": true,
+      "docker": true,
+      "openstack": false
+    },
+    "data_portability": {
+      "export_tools": true,
+      "standard_formats": true,
+      "exit_fees": "Standard egress costs"
+    },
+    "lockin_score": 55,
+    "notes": "Most proprietary services, but good tooling for migration"
+  },
+  "Azure": {
+    "proprietary_services": {
+      "count": 150,
+      "key_proprietary": [
+        "Azure Functions",
+        "Cosmos DB",
+        "Service Bus",
+        "Active Directory"
+      ],
+      "migration_difficulty": "High"
+    },
+    "open_standards_support": {
+      "kubernetes": true,
+      "terraform": true,
+      "docker": true,
+      "openstack": false
+    },
+    "data_portability": {
+      "export_tools": true,
+      "standard_formats": true,
+      "exit_fees": "Standard egress costs"
+    },
+    "lockin_score": 60,
+    "notes": "Strong hybrid cloud options with Azure Arc"
+  },
+  "GCP": {
+    "proprietary_services": {
+      "count": 100,
+      "key_proprietary": [
+        "Cloud Functions",
+        "BigQuery",
+        "Spanner",
+        "Pub/Sub"
+      ],
+      "migration_difficulty": "Moderate"
+    },
+    "open_standards_support": {
+      "kubernetes": true,
+      "terraform": true,
+      "docker": true,
+      "openstack": false
+    },
+    "data_portability": {
+      "export_tools": true,
+      "standard_formats": true,
+      "exit_fees": "Standard egress costs"
+    },
+    "lockin_score": 70,
+    "notes": "Kubernetes origins, more open-source friendly, Anthos for hybrid"
+  }
+}
